@@ -19,9 +19,11 @@ Sau mỗi cái tweak là giá trị nhé
 * boot.fps - 25 ( Là tốc độ khung hình khi khởi động máy. để 15 được thì càng tốt )
 * debug.sf.nobootanimation - 1
 
-Sau đó khởi động lại máy là tận hưởng thành quả nhé<3
-
 </p></details>
+
+`Sau đó khởi động lại máy là tận hưởng thành quả nhé<3`
+
+
 
 ## Tweaks Nâng Cao
 
