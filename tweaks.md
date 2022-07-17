@@ -21,6 +21,8 @@ Sau mỗi cái tweak là giá trị nhé
 
 Sau đó khởi động lại máy là tận hưởng thành quả nhé<3
 
+</p></details>
+
 ## Tweaks Nâng Cao
 
 <details><summary>Display density</summary><p>
