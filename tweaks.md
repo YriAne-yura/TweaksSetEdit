@@ -29,18 +29,26 @@ Sau đó khởi động lại máy là tận hưởng thành quả nhé<3
 
 * display_density_forced - 209
 
+</p></details>
+
 <details><summary>Ring without delay</summary><p>
 
 * ring.delay - 0
+
+</p></details>
 
 <details><summary>Tăng Tốc Độ Khởi Động Máy</summary><p>
 
 * boot.fps - 25 ( 25 là fps, tốc độ khung hình khi khởi động máy, ví dụ như logo )
 * debug.sf.nobootanimation - 1
 
+</p></details>
+
 <details><summary>Giảm hết pin nhanh và giảm % cpu</summary><p>
 
 * wifi.supplicant_scan_interval - 120 ( giúp tăng thời gian giữa các lần quét WiFi, tiết kiệm pin và tốc độ CPU )
+
+</p></details>
 
 <details><summary>Tiết Kiệm Pin</summary><p>
 
@@ -49,6 +57,9 @@ Sau đó khởi động lại máy là tận hưởng thành quả nhé<3
 * ro.mot.eri.losalert.delay - 1000 (có thể tắt chia sẻ kết nối wifi)
 * ro.ril.power_collapse - 1
 * ro.ril.disable.power.collapse - 0
+
+</p></details>
+
 
 <details><summary>Tối Ưu Cho Game, Tăng Hiệu Suất</summary><p>
 
@@ -68,18 +79,30 @@ việc này giúp cho máy trơn tru hơn ban đầu. tối ưu cho điện tho�
 * debug.performance.tuning - 1
 * Logcat.live - disable
 
+</p></details>
+
+
 <details><summary>Điều Hướng Độ Nhạy Tốt Hơn</summary><p>
 
 * windowsmgr.max_events_per_sec - 100
+
+</p></details>
+
 
 <details><summary>Tắt Hoạt Ảnh Khi Dùng Dấu Vân Tay</summary><p>
 
 * fod_animation_type - 4
 
+</p></details>
+
+
 <details><summary>Tăng chất lượng đầu ra âm thanh</summary><p>
 
 * af.resampler.quality - 255
 * mpq.audio.decode - true
+
+</p></details>
+
 
 <details><summary>Tối Ưu Trình duyệt web và tốc độ download</summary><p>
 
@@ -105,6 +128,9 @@ việc này giúp cho máy trơn tru hơn ban đầu. tối ưu cho điện tho�
 * net.gprs.dns1 "8.8.8.8"
 * net.gprs.dns2 "8.8.4.4"
 
+</p></details>
+
+
 <details><summary>Tăng Tốc GPU</summary><p>
 
 * debug.qc.hardware - true
@@ -115,9 +141,15 @@ việc này giúp cho máy trơn tru hơn ban đầu. tối ưu cho điện tho�
 * hwui.render_dirty_regions - false
 * hwui.disable_vsync - true
 
+</p></details>
+
+
 <details><summary>Tắt FeedBack</summary><p>
 
 * haptic_feedback_enabled - 0 ( muốn bật lại thì chỉnh 0 thành 1 và khởi động lại máy )
+
+</p></details>
+
 
 <details><summary>Tối Ưu Cho Streaming, chia sẻ màn hình</summary><p>
 
@@ -128,6 +160,9 @@ media.stagefright.enable-http "true"
 media.stagefright.enable-aac "true"
 media.stagefright.enable-qcp "true"
 media.stagefright.enable-record "true"
+
+</p></details>
+
 
 <details><summary>Tinh chỉnh Wifi Mượt</summary><p>
 
@@ -145,14 +180,23 @@ net.ipv4.tcp_timestamps=1
 net.ipv4.tcp_window_scaling=1
 net.ipv4.tcp_wmem=4096 39000 18700
 
+</p></details>
+
+
 <details><summary>Tinh chỉnh RAM</summary><p>
 
 * ro.HOME_APP_ADJ - 1
+
+</p></details>
+
 
 <details><summary>Tắt Tự động gửi báo cáo lỗi tới nhà sản xuất</summary><p>
 
 * profiler.force_disable_err_rpt - 1
 * profiler.force_disable_ulog - 1
+
+</p></details>
+
 
 <details><summary>Tối Ưu Sóng 3G</summary><p>
 
@@ -168,10 +212,16 @@ ro.ril.htcmaskw1.bitmask - 4294967295
 ro.ril.htcmaskw1 - 14449
 ro.ril.hsupa.category - 6
 
+</p></details>
+
+
 <details><summary>Tắt sự cố màn hình đen sau cuộc gọi</summary><p>
 
 * ro.lge.proximity.delay - 25
 * mot.proximity.delay - 25
+
+</p></details>
+
 
 <details><summary>Giúp hiển thị chất lượng tốt hơn</summary><p>
 
