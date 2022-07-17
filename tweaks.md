@@ -106,27 +106,27 @@ việc này giúp cho máy trơn tru hơn ban đầu. tối ưu cho điện tho�
 
 <details><summary>Tối Ưu Trình duyệt web và tốc độ download</summary><p>
 
-* net.tcp.buffersize.default "4096,87380,256960,4096, 16384,256960"
-* net.tcp.buffersize.wifi "4096,87380,256960,4096,163 84,256960"
-* net.tcp.buffersize.umts "4096,87380,256960,4096,163 84,256960"
-* net.tcp.buffersize.gprs "4096,87380,256960,4096,163 84,256960"
-* net.tcp.buffersize.edge "4096,87380,256960,4096,163 84,256960"
-* net.tcp.buffersize.hspa "6144,87380,524288,6144,163 84,262144"
-* net.tcp.buffersize.lte "524288,1048576,2097152,5242 88,1048576,2097152
-* net.tcp.buffersize.hsdpa "6144,87380,1048576,6144,8 7380,1048576"
-* net.tcp.buffersize.evdo_b "6144,87380,1048576,6144, 87380,1048576"
-* net.rmnet0.dns1 "8.8.8.8"
-* net.rmnet0.dns2 "8.8.4.4"
-* net.dns1 "8.8.8.8"
-* net.dns2 "8.8.4.4"
-* net.ppp0.dns1 "8.8.8.8"
-* net.ppp0.dns2 "8.8.4.4"
-* net.wlan0.dns1 "8.8.8.8"
-* net.wlan0.dns2 "8.8.4.4"
-* net.eth0.dns1 "8.8.8.8"
-* net.eth0.dns2 "8.8.4.4"
-* net.gprs.dns1 "8.8.8.8"
-* net.gprs.dns2 "8.8.4.4"
+* net.tcp.buffersize.default - 4096,87380,256960,4096, 16384,256960
+* net.tcp.buffersize.wifi - 4096,87380,256960,4096,163 84,256960
+* net.tcp.buffersize.umts - 4096,87380,256960,4096,163 84,256960
+* net.tcp.buffersize.gprs - 4096,87380,256960,4096,163 84,256960
+* net.tcp.buffersize.edge - 4096,87380,256960,4096,163 84,256960
+* net.tcp.buffersize.hspa - 6144,87380,524288,6144,163 84,262144
+* net.tcp.buffersize.lte - 524288,1048576,2097152,5242 88,1048576,2097152
+* net.tcp.buffersize.hsdpa - 6144,87380,1048576,6144,8 7380,1048576
+* net.tcp.buffersize.evdo_b - 6144,87380,1048576,6144, 87380,1048576
+* net.rmnet0.dns1 - 8.8.8.8
+* net.rmnet0.dns2 - 8.8.4.4
+* net.dns1 - 8.8.8.8
+* net.dns2 - 8.8.4.4
+* net.ppp0.dns1 - 8.8.8.8
+* net.ppp0.dns2 - 8.8.4.4
+* net.wlan0.dns1 - 8.8.8.8
+* net.wlan0.dns2 - 8.8.4.4
+* net.eth0.dns1 - 8.8.8.8
+* net.eth0.dns2 - 8.8.4.4
+* net.gprs.dns1 - 8.8.8.8
+* net.gprs.dns2 - 8.8.4.4
 
 </p></details>
 
@@ -153,32 +153,32 @@ việc này giúp cho máy trơn tru hơn ban đầu. tối ưu cho điện tho�
 
 <details><summary>Tối Ưu Cho Streaming, chia sẻ màn hình</summary><p>
 
-media.stagefright.enable-player "true"
-media.stagefright.enable-meta "true"
-media.stagefright.enable-scan "true"
-media.stagefright.enable-http "true"
-media.stagefright.enable-aac "true"
-media.stagefright.enable-qcp "true"
-media.stagefright.enable-record "true"
+* media.stagefright.enable-player - true
+* media.stagefright.enable-meta - true
+* media.stagefright.enable-scan - true
+* media.stagefright.enable-http - true
+* media.stagefright.enable-aac - true
+* media.stagefright.enable-qcp - true
+* media.stagefright.enable-record - true
 
 </p></details>
 
 
 <details><summary>Tinh chỉnh Wifi Mượt</summary><p>
 
-net.ipv4.ip_no_pmtu_disc=0
-net.ipv4.route.flush=1
-net.ipv4.tcp_ecn=0
-net.ipv4.tcp_fack=1
-net.ipv4.tcp_mem=187000 187000 187000
-net.ipv4.tcp_moderate_rcvbuf=1
-net.ipv4.tcp_no_metrics_save=1
-net.ipv4.tcp_rfc1337=1
-net.ipv4.tcp_rmem=4096 39000 187000
-net.ipv4.tcp_sack=1
-net.ipv4.tcp_timestamps=1
-net.ipv4.tcp_window_scaling=1
-net.ipv4.tcp_wmem=4096 39000 18700
+* net.ipv4.ip_no_pmtu_disc - 0
+* net.ipv4.route.flush - 1
+* net.ipv4.tcp_ecn - 0
+* net.ipv4.tcp_fack - 1
+* net.ipv4.tcp_mem - 187000 187000 187000
+* net.ipv4.tcp_moderate_rcvbuf - 1
+* net.ipv4.tcp_no_metrics_save - 1
+* net.ipv4.tcp_rfc1337 - 1
+* net.ipv4.tcp_rmem - 4096 39000 187000
+* net.ipv4.tcp_sack - 1
+* net.ipv4.tcp_timestamps - 1
+* net.ipv4.tcp_window_scaling - 1
+* net.ipv4.tcp_wmem - 4096 39000 18700
 
 </p></details>
 
@@ -200,17 +200,17 @@ net.ipv4.tcp_wmem=4096 39000 18700
 
 <details><summary>Tối Ưu Sóng 3G</summary><p>
 
-Hiện chưa thấy cho 4G Nhé :v
-ro.ril.hep - 0
-ro.ril.hsxpa - 2
-ro.ril.gprsclass - 12
-ro.ril.enable.dtm - 1
-ro.ril.hsdpa.category - 8
-ro.ril.enable.a53 - 1
-ro.ril.enable.3g.prefix - 1
-ro.ril.htcmaskw1.bitmask - 4294967295
-ro.ril.htcmaskw1 - 14449
-ro.ril.hsupa.category - 6
+`Hiện chưa thấy tweaks cho 4G Nhé :v`
+* ro.ril.hep - 0
+* ro.ril.hsxpa - 2
+* ro.ril.gprsclass - 12
+* ro.ril.enable.dtm - 1
+* ro.ril.hsdpa.category - 8
+* ro.ril.enable.a53 - 1
+* ro.ril.enable.3g.prefix - 1
+* ro.ril.htcmaskw1.bitmask - 4294967295
+* ro.ril.htcmaskw1 - 14449
+* ro.ril.hsupa.category - 6
 
 </p></details>
 
@@ -232,6 +232,6 @@ ro.ril.hsupa.category - 6
 ## kết luận
 
 lấy từ nhiều nơi khác nhau và các web khác nhau.
-sự tổng hợp tất cả các lệnh sêtdit ổn định mà tôi đang sử dụng.
+sự tổng hợp tất cả các lệnh SetEdit ổn định mà tôi đang sử dụng.
 
 `Cảm Ơn vì Đã Đến Với ProFile Của tôi`
