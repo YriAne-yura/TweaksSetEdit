@@ -284,14 +284,14 @@ việc này giúp cho máy trơn tru hơn ban đầu. tối ưu cho điện tho�
 </p></details>
 
 
-</p></details>Tắt Hoạt Ảnh Vân Tay</summary><p>
+<details><summary>Tắt Hoạt Ảnh Vân Tay</summary><p>
 
 * fod_animation_type - 4
 
 </p></details>
 
 
-</p></details>Tăng Phản Hồi Intensity</summary><p>
+<details><summary>Tăng Phản Hồi Intensity</summary><p>
 
 * haptic_feedback_enabled - 1
 * haptic_feedback_intensity - 1
@@ -299,7 +299,7 @@ việc này giúp cho máy trơn tru hơn ban đầu. tối ưu cho điện tho�
 </p></details>
 
 
-</p></details>Bật Tự Động Xoay Cho Điện Thoại</summary><p>
+<details><summary>Bật Tự Động Xoay Cho Điện Thoại</summary><p>
 
 Một Số Dòng Máy không được hỗ trợ tính năng này. nhất là các ROM Mod.
 Vậy Lên Tôi Đã Chia Sẻ Tweaks Này
@@ -315,14 +315,14 @@ Muốn Tắt Tự Động Xoay Thì Xoá "log.tag.launcher_force_rotate" Đi nh�
 </p></details>
 
 
-</p></details>Giữ đèn phím sáng khi màn hình đang bật</summary><p>
+<details><summary>Giữ đèn phím sáng khi màn hình đang bật</summary><p>
 
 * ro.mot.buttonlight.timeout = 0 ( Muốn Tắt Thì Để Giá Trị Là 1 )
 
 </p></details>
 
 
-</p></details>Tắt Tính Năng Tự Động Kiểm Tra Lỗi</summary><p>
+<details><summary>Tắt Tính Năng Tự Động Kiểm Tra Lỗi</summary><p>
 
 * ro.kernel.checkjni - 0 
 * ro.kernel.android.checkjni - 0
@@ -330,21 +330,21 @@ Muốn Tắt Tự Động Xoay Thì Xoá "log.tag.launcher_force_rotate" Đi nh�
 </p></details>
 
 
-</p></details>Tắt Chế Độ Nghiêm Ngặt</summary><p>
+<details><summary>Tắt Chế Độ Nghiêm Ngặt</summary><p>
 
 * persist.android.strictmode - 0
 
 </p></details>
 
 
-</p></details>Tuỳ Chỉnh DPI Của Máy</summary><p>
+<details><summary>Tuỳ Chỉnh DPI Của Máy</summary><p>
 
 * ro.sf.lcd_density - 420 ( Có Thể Chỉnh 420 là số dpi khác mà bạn muốn )
 
 </p></details>
 
 
-</p></details>Sửa đổi bộ hẹn giờ thử lại MMS APN SMS</summary><p>
+<details><summary>Sửa đổi bộ hẹn giờ thử lại MMS APN SMS</summary><p>
 
 Nếu không gửi được SMS / MMS, Android sẽ cố gắng gửi lại sau 5 giây.
 Bạn có thể thay đổi số lần lặp lại và khoảng thời gian giữa các lần thử lại đó.
@@ -356,7 +356,7 @@ Bạn có thể thay đổi số lần lặp lại và khoảng thời gian gi�
 </p></details>
 
 
-</p></details>Tắt định vị</summary><p>
+<details><summary>Tắt định vị</summary><p>
 
 * ro.com.google.locationfeatures - 0
 * ro.com.google.networklocation - 0
@@ -364,21 +364,21 @@ Bạn có thể thay đổi số lần lặp lại và khoảng thời gian gi�
 </p></details>
 
 
-</p></details>Tắt tính năng gửi dữ liệu sử dụng</summary><p>
+<details><summary>Tắt tính năng gửi dữ liệu sử dụng</summary><p>
 
 * ro.config.nocheckin - 1
 
 </p></details>
 
 
-</p></details>Thay Đổi Màn Hình LCD</summary><p>
+<details><summary>Thay Đổi Màn Hình LCD</summary><p>
 
 * ro.sf.lcd.density - 240 ( 240 là giá trị tốt nhất thời điểm hiện tại )
 
 </p></details>
 
 
-</p></details>Tắt Thông Báo Khi Kết Nối ADB</summary><p>
+<details><summary>Tắt Thông Báo Khi Kết Nối ADB</summary><p>
 
 * persist.adb.notify - 0
 
