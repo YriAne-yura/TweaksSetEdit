@@ -231,6 +231,160 @@ việc này giúp cho máy trơn tru hơn ban đầu. tối ưu cho điện tho�
 
 </p></details>
 
+
+
+## Tặng Thêm Tweaks ( Video Đủ 120Like )
+
+
+</p></details>Tăng Hiệu Năng Chơi Game v2</summary><p>
+
+* persist.sys.NV_FPSLIMIT - 60
+* persist.sys.NV_POWERMODE - 1
+* persist.sys.NV_PROFVER - 15
+* persist.sys.NV_STEREOCTRL - 0
+* persist.sys.NV_STEREOSEPCHG - 0
+* persist.sys.NV_STEREOSEP - 20
+* persist.sys.purgeable_assets - 1
+* ro.vold.umsdirtyratio - 20
+* ro.fb.mode - 1
+* persist.sys.ui.hw - 1
+* ro.sf.compbypass.enable - 1
+* persist.sys.composition.type - c2d
+
+* ro.media.dec.jpeg.memcap - 8000000
+* ro.media.enc.hprof.vid.bps - 8000000
+* ro.media.dec.aud.wma.enabled - 1
+* ro.media.dec.vid.wmv.enabled - 1
+* ro.media.cam.preview.fps - 0
+* ro.media.codec_priority_for_thumb - so
+
+</p></details>
+
+<details><summary>Tăng Tốc Dalvik Virtual Machine ( Máy Ảo )</summary><p>
+
+* dalvik.vm.checkjni - false
+* dalvik.vm.dexopt-data-only - 1
+* dalvik.vm.heapstartsize - 5m
+* dalvik.vm.heapgrowthlimit - 48m
+* dalvik.vm.heapsize - 64m
+* dalvik.vm.verify-bytecode - false
+* dalvik.vm.execution-mode - int:jit
+* dalvik.vm.lockprof.threshold - 250
+* dalvik.vm.dexopt-flags - m=v,o=y
+* dalvik.vm.stack-trace-file - /data/anr/traces.txt
+* dalvik.vm.jmiopts - forcecopy
+
+</p></details>
+
+
+<details><summary>Loại Bỏ Giới Hạn FPS</summary><p>
+
+* debug.gr.swapinterval - 0 ( Có thể không ổn định )
+
+</p></details>
+
+
+</p></details>Tắt Hoạt Ảnh Vân Tay</summary><p>
+
+* fod_animation_type - 4
+
+</p></details>
+
+
+</p></details>Tăng Phản Hồi Intensity</summary><p>
+
+* haptic_feedback_enabled - 1
+* haptic_feedback_intensity - 1
+
+</p></details>
+
+
+</p></details>Bật Tự Động Xoay Cho Điện Thoại</summary><p>
+
+Một Số Dòng Máy không được hỗ trợ tính năng này. nhất là các ROM Mod.
+Vậy Lên Tôi Đã Chia Sẻ Tweaks Này
+
+* lockscreen.rot_override - true ( Cho Màn Hình Khoá )
+
+Muốn Tắt Tự Động Xoay Thì Chỉnh Giá Trị "true" Thành "false"
+
+* log.tag.launcher_force_rotate - VERBOSE  ( Cho Màn Hình Chính )
+
+Muốn Tắt Tự Động Xoay Thì Xoá "log.tag.launcher_force_rotate" Đi nhé.
+
+</p></details>
+
+
+</p></details>Giữ đèn phím sáng khi màn hình đang bật</summary><p>
+
+* ro.mot.buttonlight.timeout = 0 ( Muốn Tắt Thì Để Giá Trị Là 1 )
+
+</p></details>
+
+
+</p></details>Tắt Tính Năng Tự Động Kiểm Tra Lỗi</summary><p>
+
+* ro.kernel.checkjni - 0 
+* ro.kernel.android.checkjni - 0
+
+</p></details>
+
+
+</p></details>Tắt Chế Độ Nghiêm Ngặt</summary><p>
+
+* persist.android.strictmode - 0
+
+</p></details>
+
+
+</p></details>Tuỳ Chỉnh DPI Của Máy</summary><p>
+
+* ro.sf.lcd_density - 420 ( Có Thể Chỉnh 420 là số dpi khác mà bạn muốn )
+
+</p></details>
+
+
+</p></details>Sửa đổi bộ hẹn giờ thử lại MMS APN SMS</summary><p>
+
+Nếu không gửi được SMS / MMS, Android sẽ cố gắng gửi lại sau 5 giây.
+Bạn có thể thay đổi số lần lặp lại và khoảng thời gian giữa các lần thử lại đó.
+Đoạn mã sau sẽ buộc 4 lần thử lại sau mỗi 8 giây.
+
+* ro.gsm.2nd_data_retry_config - max  
+* _retries - 4, 8000, 8000, 8000, 8000
+
+</p></details>
+
+
+</p></details>Tắt định vị</summary><p>
+
+* ro.com.google.locationfeatures - 0
+* ro.com.google.networklocation - 0
+
+</p></details>
+
+
+</p></details>Tắt tính năng gửi dữ liệu sử dụng</summary><p>
+
+* ro.config.nocheckin - 1
+
+</p></details>
+
+
+</p></details>Thay Đổi Màn Hình LCD</summary><p>
+
+* ro.sf.lcd.density - 240 ( 240 là giá trị tốt nhất thời điểm hiện tại )
+
+</p></details>
+
+
+</p></details>Tắt Thông Báo Khi Kết Nối ADB</summary><p>
+
+* persist.adb.notify - 0
+
+</p></details>
+
+
 ## kết luận
 
 lấy từ nhiều nơi khác nhau và các web khác nhau.
