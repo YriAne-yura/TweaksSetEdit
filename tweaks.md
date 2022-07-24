@@ -236,7 +236,7 @@ việc này giúp cho máy trơn tru hơn ban đầu. tối ưu cho điện tho�
 ## Tặng Thêm Tweaks ( Video Đủ 120Like )
 
 
-</p></details>Tăng Hiệu Năng Chơi Game v2</summary><p>
+<details><summary>Tăng Hiệu Năng Chơi Game v2</summary><p>
 
 * persist.sys.NV_FPSLIMIT - 60
 * persist.sys.NV_POWERMODE - 1
