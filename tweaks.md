@@ -13,4 +13,4 @@ Sau mỗi cái tweak là giá trị nhé
 
 
 Link lấy code: 
-"https://osteup.site/code-setedit-fix-lag-by-wdlf-osteup-download-setedit-setedit-featurepack-free/"
+"https://osteup.com/code-setedit-fix-lag-by-wdlf-osteup-download-setedit-setedit-featurepack-free/"
